@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
+/**
+ * assign random variable
+ */
+
 int main(void)
 {
 	int n;
