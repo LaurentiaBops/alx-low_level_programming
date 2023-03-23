@@ -10,13 +10,13 @@
 int _isdigit(int c)
 {
 	int i;
-	int digit = 0;
+	int digit = '0';
 
 	for (i = 0; i <= 9; i++)
 	{
 	if (i == c)
 	{
-	digiit = 1;
+	digiit = '1';
 	break;
 	}
 	}
