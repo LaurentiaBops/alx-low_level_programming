@@ -6,7 +6,6 @@
  * @c: input integer
  * Returns 1 if digit otherwise return 0
  */
-
 int _isdigit(int c)
 {
 	char i;
