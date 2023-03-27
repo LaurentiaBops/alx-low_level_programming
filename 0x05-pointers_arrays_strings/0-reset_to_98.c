@@ -3,8 +3,8 @@
 
 /**
  * reset_to_98 - Updates value pointer points to 98.
- * @n = Pointer 
- * Return nothing.
+ * @n: pointer
+ * Return: Nothing.
  */
 void reset_to_98(int *n)
 {
