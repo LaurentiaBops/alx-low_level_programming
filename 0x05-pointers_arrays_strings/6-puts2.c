@@ -15,16 +15,21 @@ void puts2(char *str)
 
 	len = strlen(str);
 
-	for (i = 0; i <= len; i++)
+	if (len != 0)
 	{
-		if ((i % 2) != 0)
+		for (i = 0; i < len; i++)
 		{
-			continue;
+			if ((i % 2) != 0)
+			{
+				continue;
+			}
+			else
+			{
+				_putchar(str[i]);
+			}
 		}
-		else
-		{
-			_putchar(str[i]);
-		}
+		_putchar('\n');
 	}
-	_putchar('\n');
+	else
+		_putchar('\n');
 }
