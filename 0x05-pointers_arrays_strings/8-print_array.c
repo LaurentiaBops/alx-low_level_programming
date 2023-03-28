@@ -3,7 +3,6 @@
 
 /**
  * print_array - Print n elements of array followed by line
- * 
  * @a: an input array
  * @n: an input integer
  *
