@@ -16,7 +16,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	s = malloc(sizeof(char)*sizeof(str));
+	s = malloc(sizeof(char) * sizeof(str));
 
 	while (i < sizeof(str))
 	{
@@ -24,5 +24,6 @@ char *_strdup(char *str)
 		i++;
 	}
 
-	return(s);
+	free(s);
+	return (s);
 }
